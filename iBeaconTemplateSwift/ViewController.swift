@@ -9,19 +9,58 @@
 import UIKit
 import CoreLocation
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewController: UIViewController{
+//class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet var tableView: UITableView?
     var beacons: [CLBeacon]?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+//        
+//        // 背景の色設定
+//        myLabel.backgroundColor = UIColor.whiteColor()
+//        
+//        // 枠を丸くする.
+//        myLabel.layer.masksToBounds = true
+//        
+//        // コーナーの半径.
+//        myLabel.layer.cornerRadius = 20.0
+//        
+//        // Labelに文字を代入.
+//        myLabel.text = "Hello Swift!!"
+//        
+//        // 文字の色を白にする.
+//        myLabel.textColor = UIColor.blackColor()
+//        
+//        // 文字の影の色をグレーにする.
+//        myLabel.shadowColor = UIColor.grayColor()
+//        
+//        // Textを中央寄せにする.
+//        myLabel.textAlignment = NSTextAlignment.Center
+//        
+//        // 配置する座標を設定する.
+//        myLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 200)
+//        
+//        // Viewの背景色を白に
+//        self.view.backgroundColor = UIColor.whiteColor()
+//        
+//        // ViewにLabelを追加.
+//        self.view.addSubview(myLabel)
+//        
+//        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     
 }
@@ -47,6 +86,7 @@ extension ViewController: UITableViewDataSource {
             }
             
             let beacon:CLBeacon = beacons![indexPath.row]
+            println(indexPath.row)
             var proximityLabel:String! = ""
             
             switch beacon.proximity {
@@ -60,13 +100,35 @@ extension ViewController: UITableViewDataSource {
                 proximityLabel = "Unknown"
             }
             
-            cell!.textLabel!.text = proximityLabel
+            
+            //clear
+            cell!.textLabel!.text = ""
+            cell!.detailTextLabel!.text = ""
+            
             
             let detailLabel:String = "Major: \(beacon.major.integerValue), " +
                 "Minor: \(beacon.minor.integerValue), " +
                 "RSSI: \(beacon.rssi as Int), " +
             "UUID: \(beacon.proximityUUID.UUIDString)"
-            cell!.detailTextLabel!.text = detailLabel
+            
+            if(proximityLabel == "Near"){
+                cell!.textLabel!.text = proximityLabel
+                cell!.detailTextLabel!.text = detailLabel
+                cell!.textLabel!.textColor = UIColor.orangeColor()
+                
+            }else if (proximityLabel == "Immediate"){
+                cell!.textLabel!.text = proximityLabel
+                cell!.detailTextLabel!.text = detailLabel
+                cell!.textLabel!.textColor = UIColor.purpleColor()
+                
+            }else{
+                println(proximityLabel)
+                println("pass here")
+                //clear
+                cell!.textLabel!.text = ""
+                cell!.detailTextLabel!.text = ""
+            }
+    
             
             return cell!
     }

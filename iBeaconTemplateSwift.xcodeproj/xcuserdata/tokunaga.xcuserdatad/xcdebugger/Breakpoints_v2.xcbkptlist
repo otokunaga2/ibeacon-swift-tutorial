@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iBeaconTemplateSwift/ViewController.swift"
+            timestampString = "437318338.435827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iBeaconTemplateSwift.ViewController.tableView.getter : Swift.Optional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "iBeaconTemplateSwift"
+                  urlString = "file:///Users/tokunaga/workspace/ibeacon-swift-tutorial/iBeaconTemplateSwift/ViewController.swift"
+                  timestampString = "437307388.141087"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iBeaconTemplateSwift.ViewController.tableView.setter : Swift.Optional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "iBeaconTemplateSwift"
+                  urlString = "file:///Users/tokunaga/workspace/ibeacon-swift-tutorial/iBeaconTemplateSwift/ViewController.swift"
+                  timestampString = "437307388.176133"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iBeaconTemplateSwift.ViewController.init (iBeaconTemplateSwift.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; iBeaconTemplateSwift.ViewController"
+                  moduleName = "iBeaconTemplateSwift"
+                  urlString = "file:///Users/tokunaga/workspace/ibeacon-swift-tutorial/iBeaconTemplateSwift/ViewController.swift"
+                  timestampString = "437307388.17672"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iBeaconTemplateSwift.ViewController.init (iBeaconTemplateSwift.ViewController.Type)() -&gt; iBeaconTemplateSwift.ViewController"
+                  moduleName = "iBeaconTemplateSwift"
+                  urlString = "file:///Users/tokunaga/workspace/ibeacon-swift-tutorial/iBeaconTemplateSwift/ViewController.swift"
+                  timestampString = "437307388.177096"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iBeaconTemplateSwift.ViewController.init (iBeaconTemplateSwift.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; iBeaconTemplateSwift.ViewController"
+                  moduleName = "iBeaconTemplateSwift"
+                  urlString = "file:///Users/tokunaga/workspace/ibeacon-swift-tutorial/iBeaconTemplateSwift/ViewController.swift"
+                  timestampString = "437307388.177489"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
